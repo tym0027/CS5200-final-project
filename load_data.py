@@ -16,16 +16,19 @@ cnx = pymysql.connect(host="localhost",
 cur = cnx.cursor()
 
 def contact_database(sql_stmt, verbosity=True):
-	#try: 
-	if verbosity:
-		print("\nMySQL statement: ", sql_stmt)
-	cur.execute(sql_stmt)
-	if verbosity:
-		rows = cur.fetchall()
-		for row in rows:
-			print("\tresponse: ", row)
-	#except pymysql.err.IntegrityError:
-	#	print("\tcatch: obj ", sql_stmt.split(",")[1][:-1] ," already in database!!!")
+	try: 
+		if verbosity:
+			print("\nMySQL statement: ", sql_stmt)
+		cur.execute(sql_stmt)
+		if verbosity:
+			rows = cur.fetchall()
+			for row in rows:
+				print("\tresponse: ", row)
+	except pymysql.err.IntegrityError:
+		print("\tcatch: obj ", sql_stmt.split(",")[1][:-1] ," already in database!!!")
+	except:
+		print("\tUNEXPECTED ERROR!!!")
+
 
 
 ### INSERT IDEOLOGICAL TOPIC DATA	

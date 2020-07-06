@@ -62,7 +62,7 @@ policians = ["john kennedy",
 					"hubert humphrey",
 					"george wallace",
 					"edmund gerald brown sr.",
-					"ronald reagan",
+					"ronald reegan",
 					"nelson rockefeller",
 					"robert morganthau",
 					"frank o'connor"]
@@ -71,7 +71,7 @@ elections = {"the 1960 us presidential election" : ["president (us)",'1960-11-08
 					"the 1964 us presidential election" : ["president (us)",'1964-11-03', "lyndon johnson", "barry goldwater", "none"],
 					"the 1968 us presidential election" : ["president (us)",'1968-11-05', "richard nixon", "hubert humphrey", "george wallace"],
 					"the 1962 california gubernatorial election" : ["governor (ca)",'1962-11-06', "edmund gerald brown sr.", "richard nixon", "none"],
-					"the 1966 california gubernatorial election" : ["governor (ca)",'1966-11-08', "ronald reagan", "edmund gerald brown sr.", "none"],
+					"the 1966 california gubernatorial election" : ["governor (ca)",'1966-11-08', "ronald reegan", "edmund gerald brown sr.", "none"],
 					"the 1962 new york gubernatorial election" : ["governor (ny)",'1962-11-06', "nelson rockefeller", "robert morganthau", "none"],
 					"the 1966 new york gubernatorial election" : ["governor (ny)",'1966-11-08', "nelson rockefeller", "frank o'connor", "none"]};					
 
@@ -84,7 +84,7 @@ endorsements = [["the 1960 us presidential election", "the republican party", "r
 				
 								["the 1962 california gubernatorial election", "the republican party", "richard nixon", '1962'],
 								["the 1962 california gubernatorial election", "the democratic party", "edmund gerald brown sr.", '1962'],
-								["the 1966 california gubernatorial election", "the republican party", "ronald reagan", '1966'],
+								["the 1966 california gubernatorial election", "the republican party", "ronald reegan", '1966'],
 								["the 1966 california gubernatorial election", "the democratic party", "edmund gerald brown sr.", '1966'],
 								["the 1962 new york gubernatorial election", "the republican party", "nelson rockefeller", '1962'],
 								["the 1962 new york gubernatorial election", "the democratic party", "robert morganthau", '1962'],
@@ -102,7 +102,7 @@ endorsements = [["the 1960 us presidential election", "the republican party", "r
 								["the 1964 us presidential election","the chicago tribune","barry goldwater",'1964'],
 								["the 1968 us presidential election","the chicago tribune","richard nixon",'1968'],
 								
-								["the 1964 us presidential election","ronald reagan","barry goldwater",'1964']]
+								["the 1964 us presidential election","ronald reegan","barry goldwater",'1964']]
 								
 								
 								
